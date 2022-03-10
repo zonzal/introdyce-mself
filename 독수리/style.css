@@ -1,0 +1,118 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.result{
+    font-size: 24px;
+}
+
+.intro_bg{
+    background-image: url(../독수리/night.jpg);
+    width: 100%;
+    height: 718px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
+}
+
+.search_area{
+    width: 300px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.search_area > form > input {
+    border: none;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    height: 40px;
+    padding-left: 10px;
+} 
+
+.search_area > form > span{
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+    color: #ffffff;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.nav > li > a{
+    color: #fff;
+}
+
+.text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+
+.text > h1, .text > h4 {
+    color: whitesmoke;
+}
+
+.amount{
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    margin: auto;
+}
+
+.amount > li{
+    flex: 1;
+    height: 132px;
+}
+
+.amount > li > div {
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;
+}
+
+.amount > li:not(:last-child) > div {
+    border-right: 1px solid gray;
+}
+ 
